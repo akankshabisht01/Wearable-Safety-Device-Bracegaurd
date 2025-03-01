@@ -88,5 +88,7 @@ GND         | GND
 🔹 No Internet Dependency: Works in remote areas  
 🔹 Women’s Safety Focused: Enables real-time emergency tracking  
 
+## Rest Files are for the real tracking location.
+
 
 ## As this is our 1st prototype in future we will use the different and compact modules
