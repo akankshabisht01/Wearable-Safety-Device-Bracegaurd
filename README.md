@@ -9,7 +9,6 @@ This ESP32-based LoRa Transmitter sends real-time GPS location using LoRa commun
 ✅ Real-time GPS tracking (Latitude, Longitude)  
 ✅ LoRa-based communication (No Internet needed)  
 ✅ Low-power, long-range transmission  
-✅ Compact & wearable design  
 
 ## Hardware  
 - ESP32-WROOM-32 (Microcontroller)  
@@ -90,4 +89,4 @@ GND         | GND
 🔹 Women’s Safety Focused: Enables real-time emergency tracking  
 
 
-## As this is our 1st prototype in futuer we will use the different and compact modules
+## As this is our 1st prototype in future we will use the different and compact modules
