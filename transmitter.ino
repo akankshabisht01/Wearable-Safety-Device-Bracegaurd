@@ -7,7 +7,7 @@
 #define DIO0 26
 
 TinyGPSPlus gps;
-#define gpsSerial Serial1  // Use Serial1 for GPS
+#define gpsSerial Serial1  
 
 void setup() {
     Serial.begin(115200);
@@ -15,7 +15,7 @@ void setup() {
 
     gpsSerial.begin(9600, SERIAL_8N1, 16, 17);
     Serial.println("📡 GPS Initialized");
-\
+
     Serial.println("🔄 Initializing LoRa...");
     LoRa.setPins(SS, RST, DIO0);
     delay(100);
@@ -40,7 +40,7 @@ void loop() {
                 String mapsURL = "https://www.google.com/maps?q=" + String(latitude, 6) + "," + String(longitude, 6);
 
                 
-                String dataToSend = String(latitude, 6) + "," + String(longitude, 6);
+                String dataToSend = String(latitude, 6) + "," + String(longitude, 6) + ", + "HELP"; 
 
 
                 sendLoRaMessage(dataToSend);
