@@ -43,3 +43,51 @@ GND   | GND  | GND
 🔹 Hackathon-Ready: Compact, efficient & real-world impact  
 🔹 No Internet Dependency: Works in remote areas  
 🔹 Women’s Safety Focused: Instant emergency response  
+
+
+
+## Wearable Safety Device - LoRa GPS Receiver 🚀  
+
+## Overview  
+This Arduino Uno-based LoRa Receiver listens for incoming GPS location data and displays it on a web page with a real-time map and the Serial Monitor. It enables real-time tracking and emergency response without requiring an internet connection.  
+
+## Features  
+✅ Receives real-time GPS location via LoRa  
+✅ Displays location on a web page with Google Maps  
+✅ Shows received data on Serial Monitor for debugging  
+✅ Works without internet dependency  
+✅ Low-power, long-range communication  
+
+## Hardware  
+- Arduino Uno (Microcontroller)  
+- LoRa RA-02 Module (Long-range communication)  
+
+## Connections  
+Arduino Uno | LoRa  
+------------|------  
+10          | NSS  
+9           | RST  
+2           | DIO0  
+3.3V        | VCC  
+GND         | GND  
+
+## Setup & Deployment  
+1. Install Libraries: LoRa (via Arduino IDE)  
+2. Upload Code: Flash Arduino Uno with the provided receiver script  
+3. Open Serial Monitor (Baud: 115200) to check incoming data  
+4. Web Page Setup: Display location on a real-time map  
+5. Verify LoRa Data: Ensure messages are received correctly  
+
+## How It Works  
+1. LoRa receiver listens for incoming GPS data  
+2. Received data is displayed on the Serial Monitor  
+3. The location is plotted on a web page with Google Maps  
+4. Emergency responders can act based on real-time tracking  
+
+## Why This Project?  
+🔹 Hackathon-Ready: Efficient and impactful  
+🔹 No Internet Dependency: Works in remote areas  
+🔹 Women’s Safety Focused: Enables real-time emergency tracking  
+
+
+## As this is our 1st prototype in futuer we will use the different and compact modules
